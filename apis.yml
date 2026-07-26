@@ -1,7 +1,27 @@
 aid: first-person-labs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/first-person-labs.png
 name: First Person Labs
-description: First Person Labs is a company surfaced as a portfolio company of a16z and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  First Person Labs, Inc. is a Palo Alto, California-based startup that appears on
+  Andreessen Horowitz's (a16z) public investment list, and was added to the API
+  Evangelist network as a venture-portfolio lead pending discovery of a public API
+  or developer surface. As of this profile, no public developer portal,
+  documentation, OpenAPI/AsyncAPI specification, SDK, or other machine-readable API
+  artifact has been verified for the company, so this record remains an
+  identity-only stub. It will be enriched further once a confirmed product,
+  developer portal, or API surface is located and attributed to this entity; no
+  domain, product, or API has been attached here without verification.
 url: https://raw.githubusercontent.com/api-evangelist/first-person-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +29,31 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-hq: Palo Alto, CA, USA
+x-identity-evidence:
+- source: https://a16z.com/investment-list/
+  status: 200
+  note: "'First Person Labs' listed in a16z public investment list"
+- source: https://www.bizprofile.net/ca/palo-alto/first-person-labs-inc
+  note: "'First Person Labs, Inc.' registered in Palo Alto, CA (filing directory)"
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Startup
+- Venture Backed
+- a16z
+- Palo Alto
+- Silicon Valley
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
