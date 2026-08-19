@@ -36,7 +36,7 @@ x-identity-evidence:
   note: "'First Person Labs' listed in a16z public investment list"
 - source: https://www.bizprofile.net/ca/palo-alto/first-person-labs-inc
   note: "'First Person Labs, Inc.' registered in Palo Alto, CA (filing directory)"
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
